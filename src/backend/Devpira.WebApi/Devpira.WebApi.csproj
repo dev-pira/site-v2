@@ -7,10 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Aspire.Microsoft.Data.SqlClient" Version="8.2.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\env\aspire\Devpira.Environment.ServiceDefaults\Devpira.Environment.ServiceDefaults.csproj" />
     <ProjectReference Include="..\Devpira.Application\Devpira.Application.csproj" />
     <ProjectReference Include="..\Devpira.Infrastructure.Db\Devpira.Infrastructure.Db.csproj" />
   </ItemGroup>

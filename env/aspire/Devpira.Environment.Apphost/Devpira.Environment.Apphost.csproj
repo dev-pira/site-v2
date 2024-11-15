@@ -20,6 +20,8 @@
     <ProjectReference Include="..\..\..\src\containers\Devpira.GraphQl\Devpira.GraphQl.csproj" />
     <ProjectReference Include="..\..\..\src\containers\Devpira.Migrations\Devpira.Migrations.csproj" />
     <ProjectReference Include="..\..\..\src\containers\Devpira.WebApi\Devpira.WebApi.csproj" />
+    <ProjectReference Include="..\..\..\src\frontend\Devpira.Web.Admin\Devpira.Web.Admin.csproj" />
+    <ProjectReference Include="..\..\..\src\frontend\Devpira.Web\Devpira.Web.csproj" />
   </ItemGroup>
 
 </Project>

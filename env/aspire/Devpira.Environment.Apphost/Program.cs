@@ -12,4 +12,9 @@ var graphql = builder.AddProject<Devpira_GraphQl>("graphql")
 var migrations = builder.AddProject<Devpira_Migrations>("migrations")
     .WithReference(database);
 
+var web = builder.AddProject<Devpira_Web>("web")
+    .WithReference(graphql);
+var admin = builder.AddProject<Devpira_Web_Admin>("admin")
+    .WithReference(webapi);
+
 builder.Build().Run();

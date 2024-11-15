@@ -1,0 +1,6 @@
+@Devpira.WebApi_HostAddress = http://localhost:5022
+
+GET {{Devpira.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

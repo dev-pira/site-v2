@@ -1,0 +1,6 @@
+@Devpira.GraphQl_HostAddress = http://localhost:5224
+
+GET {{Devpira.GraphQl_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

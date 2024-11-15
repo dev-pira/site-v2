@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Devpira.Infrastructure.Db\Devpira.Infrastructure.Db.csproj" />
+  </ItemGroup>
+
 </Project>

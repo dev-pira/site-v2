@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\env\aspire\Devpira.Environment.ServiceDefaults\Devpira.Environment.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\Devpira.Design\Devpira.Design.csproj" />
   </ItemGroup>
 
 </Project>

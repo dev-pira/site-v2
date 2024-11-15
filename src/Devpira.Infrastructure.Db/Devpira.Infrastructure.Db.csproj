@@ -10,4 +10,8 @@
     <ProjectReference Include="..\Devpira.Domain\Devpira.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="9.0.0" />
+  </ItemGroup>
+
 </Project>

@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <PackageReference Include="Aspire.Hosting.AppHost" Version="9.0.0" />
+    <PackageReference Include="Aspire.Hosting.Azure.Sql" Version="9.0.0" />
     <PackageReference Include="Aspire.Hosting.SqlServer" Version="9.0.0" />
   </ItemGroup>
 
@@ -20,6 +21,7 @@
     <ProjectReference Include="..\..\..\src\containers\Devpira.GraphQl\Devpira.GraphQl.csproj" />
     <ProjectReference Include="..\..\..\src\containers\Devpira.Migrations\Devpira.Migrations.csproj" />
     <ProjectReference Include="..\..\..\src\containers\Devpira.WebApi\Devpira.WebApi.csproj" />
+    <ProjectReference Include="..\..\..\src\frontend\Devpira.Design.Book\Devpira.Design.Book.csproj" />
     <ProjectReference Include="..\..\..\src\frontend\Devpira.Web.Admin\Devpira.Web.Admin.csproj" />
     <ProjectReference Include="..\..\..\src\frontend\Devpira.Web\Devpira.Web.csproj" />
   </ItemGroup>
